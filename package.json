@@ -1,0 +1,59 @@
+{
+  "name": "omit-value",
+  "description": "Omit properties from an object or deeply nested property of an object using object path notation.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/omit-value",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/omit-value",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/omit-value/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "get-value": "^1.1.5",
+    "is-extendable": "^0.1.1",
+    "object.omit": "^1.1.0",
+    "set-value": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "omit",
+    "dot",
+    "extend",
+    "get",
+    "has",
+    "merge",
+    "nested",
+    "notation",
+    "object",
+    "path",
+    "prop",
+    "property",
+    "set",
+    "value"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "omit-value",
+        "set-value",
+        "get-value",
+        "union-value",
+        "has-value"
+      ]
+    }
+  }
+}
